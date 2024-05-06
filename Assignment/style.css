@@ -1,0 +1,798 @@
+
+* {
+  box-sizing: border-box;
+  
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAF2E7;
+  font-family: 'Poppins';
+  width: 100%;
+}
+
+
+header {
+  width: 100%;
+  padding: 30px 4% 10px;
+  background-color: #F4F1F1;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 768px){
+  .firstimage h3 {
+    font-size: 38Px;
+  }
+}
+
+h1 {
+  margin: 0; padding: 0;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 0 0 25px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+  li {
+    font-size: 20Px;
+  }
+}
+
+nav {
+  margin: 0 0 0 auto;
+}
+
+
+
+.hero { 
+  margin-top: 100px;
+  padding: 0;
+  width: 100%;
+  height: 80vh;
+  background: url(./images/udon-kake.png) center/cover no-repeat;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.firstimage h2{
+  font-size: 64px;
+  color: #F4F1F1;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+}
+
+.firstimage h3 {
+  font-size: 48px;
+  color: #F4F1F1;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .firstimage h3 {
+    font-size: 38Px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .firstimage h3 {
+    font-size: 32Px;
+  }
+}
+
+.AboutUdon {
+display: flex;
+align-items: center;
+margin: 100px 112px 170px 112px;
+}
+
+@media screen and (max-width: 1024px){
+  .AboutUdon{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+}
+
+.AboutUdonText {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 1024px){
+  .AboutUdonText{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+.AboutUdonText p1{
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  font-style: normal
+}
+
+.AboutUdonText p {
+  font-size: 28px;
+}
+
+.KnowUdon {
+  background-color: #08670C;
+  font-size: 28px;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  border-radius: 20px;
+  height: 86px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+  flex-wrap: nowrap;
+}
+
+.KnowUdon:hover {
+  background-color: #000000;
+}
+
+.UdonMEnu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px 112px 170px 112px;
+  }
+
+  @media screen and (max-width: 1024px){
+    .UdonMEnu{
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      margin-bottom: 80px;
+    }
+  }
+  
+  
+  .UdonMenuText {
+    margin-right: 50px;
+  }
+
+  @media screen and (max-width: 1024px){
+    .UdonMenuText {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .UdonMenuText p1{
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  font-style: normal
+  }
+
+  .UdonMenuText p {
+    font-size: 28px;
+  }
+
+  .ExploreUdon {
+    background-color: #08670C;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    border-radius: 20px;
+    height: 86px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .ExploreUdon:hover {
+    background-color: #000000;
+}
+
+  .UdonMenuImage img {
+    width: 597px;
+    height: 398px;
+  }
+
+  @media screen and (max-width: 1024px){
+    .UdonMenuImage {
+    margin-top: 30px;
+    }
+  }
+
+.Recommendations {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin: 0 112px 100px 112px;
+}
+
+
+
+.Recommendations h3 {
+  font-size: 56px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1024px){
+  .Recommendations h3 {
+    font-size: 48Px;
+    text-align: center;
+  }
+}
+
+
+.restaurants {
+  display: flex;
+  padding: 0 100px 0 100px;
+}
+
+@media screen and (max-width: 1024px){
+  .restaurants {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+.restaurant1 {
+  background-color: #E0D683;
+  border-radius: 20px;
+  padding: 33px;
+  margin-right: 31px;
+}
+
+@media screen and (max-width: 1024px){
+  .restaurant1 {
+    margin-bottom: 30px;
+    margin-right: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+
+.restaurant1 p1 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.restaurant1 p {
+  font-size: 24px;
+  margin: 0 0 0 20px;
+}
+
+.Recommendations i {
+  color: #CE0101;
+  font-size: 24px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.restaurant2 {
+  background-color: #E0D683;
+  border-radius: 20px;
+  padding: 33px;
+  margin-right: 31px;
+}
+
+@media screen and (max-width: 1024px){
+  .restaurant2 {
+    margin-bottom: 30px;
+    margin-right: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+.restaurant2 p1 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.restaurant2 p {
+  font-size: 24px;
+  margin: 0 0 0 20px;
+}
+
+.restaurant3 {
+  background-color: #E0D683;
+  border-radius: 20px;
+  padding: 33px;
+}
+
+@media screen and (max-width: 1024px){
+  .restaurant3 {
+    margin-bottom: 30px;
+    margin-right: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+.restaurant3 p1 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.restaurant3 p {
+  font-size: 24px;
+  margin:0 0 0 20px;
+}
+
+.Recommendations p2 {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.Recommendations p2:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+  .Recommendations p2 {
+    margin-left: 0;
+}
+}
+
+
+@media screen and (max-width: 768px){
+  .Recommendations p2 {
+    font-size: 28px;
+}
+}
+
+.getintouch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ 
+
+
+.getintouch h3 {
+  font-size: 56px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+.ctas {
+  padding-left: 112px;
+  padding-right: 112px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px){
+  .ctas {
+     flex-direction: column;
+  }
+}
+
+.contact {
+  background-color: #08670C;
+  font-size: 32px;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  border-radius: 20px;
+  height: 86px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-right: 130px;
+  padding-left: 130px;
+  flex-wrap: nowrap;
+  margin-right: 30px;
+}
+
+.contact:hover {
+  transform: scale(1, 1.1);
+}
+
+@media screen and (max-width: 768px){
+  .contact {
+     margin-bottom: 15px;
+     margin-right: 0;
+  }
+}
+
+
+.subscribe {
+  background-color: #000000;
+  font-size: 32px;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  border-radius: 20px;
+  height: 86px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-right: 130px;
+  padding-left: 130px;
+  flex-wrap: nowrap;
+}
+
+.subscribe:hover {
+  transform: scale(1, 1.1);
+}
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  padding: 30px 4% 10px;
+  background-color: #F4F1F1;
+  top: 0;
+}
+
+.footerup {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+}
+
+.footer h1 {
+  margin: 0; padding: 0;
+  font-size: 32px;
+}
+
+hr {
+  margin-top: 30px;
+  background-color: #C6BCBC;
+  border: none;
+  width: 870px;
+  height: 0.5px;
+}
+
+.footer p {
+  text-align: center;
+  color: #C6BCBC;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.abouthero{
+  position: relative;
+
+}
+
+.abouthero img {
+  padding-top: 100px;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.abouthero h2 {
+  font-size: 64px;
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:0;
+  margin:0;
+  color: #FFFFFF;
+}
+
+.menu {
+  margin-right: 112px;
+  margin-left: 112px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menurow1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 112px 100px 112px;
+}
+
+@media screen and (max-width: 1024px){
+
+  .menu p2{
+    margin-top: 50px;
+  }
+
+  .menurow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .menu1 {
+    margin-bottom: 20px;
+  }
+
+  .menu2 {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+
+  .menurow2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .menu3 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+
+  .menurow3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu5 {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+}
+
+.menu1 {
+  background-color: #DFD6D6;
+  border-radius: 20px;
+  padding: 33px 50px 20px 50px;
+  margin-right: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menurow1 p1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #08670C;
+}
+
+.menurow1 p {
+  margin-left: auto;
+  font-size: 24px;
+}
+
+.menurow1 p:hover {
+ font-weight: 500;
+ cursor: pointer;
+}
+
+
+.menu2 {
+  background-color: #DFD6D6;
+  border-radius: 20px;
+  padding: 33px 50px 20px 50px;
+  margin-right: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu2 p1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #000000;
+}
+
+.menu2 p {
+  margin-left: auto;
+  font-size: 24px;
+}
+
+.menurow2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 112px 100px 112px;
+}
+
+.menu3 {
+  background-color: #DFD6D6;
+  border-radius: 20px;
+  padding: 33px 50px 20px 50px;
+  margin-right: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menurow2 p1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #000000;
+}
+
+.menurow2 p {
+  margin-left: auto;
+  font-size: 24px;
+}
+
+.menurow2 p:hover {
+  font-weight: 500;
+  cursor: pointer;
+ }
+
+.menu4 {
+  background-color: #DFD6D6;
+  border-radius: 20px;
+  padding: 33px 50px 20px 50px;
+  margin-right: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu4 p1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #08670C;
+}
+
+.menu4 p {
+  margin-left: auto;
+  font-size: 24px;
+}
+
+.menurow3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 112px 50px 112px;
+}
+
+.menu5 {
+  background-color: #DFD6D6;
+  border-radius: 20px;
+  padding: 33px 50px 20px 50px;
+  margin-right: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menurow3 p1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #08670C;
+}
+
+.menurow3 p {
+  margin-left: auto;
+  font-size: 24px;
+}
+
+.menurow3 p:hover {
+  font-weight: 500;
+  cursor: pointer;
+ }
+
+.menu6 {
+  background-color: #DFD6D6;
+  border-radius: 20px;
+  padding: 33px 50px 20px 50px;
+  margin-right: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu6 p1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  color: #000000;
+}
+
+.menu6 p {
+  margin-left: auto;
+  font-size: 24px;
+}
+
+.menu p2 {
+  font-size: 32px;
+  color: #08670C;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+  margin-top: 100px;
+}
